@@ -32,11 +32,14 @@ ul {
 
 li {
 	list-style: none;
-	transition: color 200ms, font-weight 200ms;
-
-	&:hover {
-		color: rgba($dark-primary-color, 0.75);
-		cursor: pointer;
+	a {
+		transition: color 200ms, font-weight 200ms;
+		text-decoration: none;
+		color: black;
+		&:hover {
+			color: rgba($dark-primary-color, 0.75);
+			cursor: pointer;
+		}
 	}
 }
 li:not(:last-child) {
@@ -44,10 +47,12 @@ li:not(:last-child) {
 }
 
 .selected {
-	color: $dark-primary-color;
-	font-weight: 800;
-	&:hover {
+	a {
 		color: $dark-primary-color;
-		cursor: default;
+		font-weight: 800;
+		&:hover {
+			color: $dark-primary-color;
+			cursor: default;
+		}
 	}
 }

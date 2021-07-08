@@ -1,14 +1,15 @@
 import './Nav.scss';
 import cn from 'classnames';
+import { useLocation, Link } from 'react-router-dom';
 
 interface NavProps {
 	items: NavRoute[];
-	selectedRoute: string;
-	onChange: (route: string) => void;
+	onChange?: (route: string) => void;
 	className?: string;
 }
 
 export default function Nav(props: NavProps) {
+	const location = useLocation();
 	return (
 		<nav className={props.className}>
 			<header>
@@ -21,8 +22,9 @@ export default function Nav(props: NavProps) {
 						key={item.route}
 						label={item.label}
 						route={item.route}
-						selected={props.selectedRoute === item.route}
-						onClick={() => props.onChange(item.route)}
+						selected={location.pathname === item.route}
+						// onClick={() => !!props.onChange && props.onChange(item.route)}
+						onClick={() => console.log(location)}
 					/>
 				))}
 			</ul>
@@ -47,7 +49,7 @@ function NavItem(props: NavItemProps) {
 			})}
 			onClick={props.onClick}
 		>
-			{props.label}
+			<Link to={props.route}>{props.label}</Link>
 		</li>
 	);
 }
