@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto:ital,wght@0,400;1,500&display=swap');
+@import './Constants.scss';
+body {
+	background-color: $background-color;
+	font-family: 'Roboto', Helvetica, sans-serif;
+	height: 100vh;
+}
+
+.wrapper {
+	display: flex;
+	flex-flow: row nowrap;
+	height: 100vh;
+	width: 100%;
+}
+
+.wrapper-nav {
+	width: 18rem;
+}
+.wrapper-container {
+	flex: 1;
+}
