@@ -6,7 +6,7 @@ export default function Home() {
 		<div className="page">
 			<div className="page-content">
 				<span className="page-route">home/</span>
-				<h1>hey, i'm shayan! 😃💻</h1>
+				<h1>hey, i'm shayan!</h1>
 				<p>
 					I'm a software developer and have worked in multiple fields such as
 					Web and Mobile software development.
@@ -34,7 +34,7 @@ export default function Home() {
 						icon={<Email />}
 					/>
 					<SocialItem
-						label="My Twitter"
+						label="My Twitter Account"
 						url="https://twitter.com/shayan_shojaei"
 						icon={<Twitter />}
 					/>

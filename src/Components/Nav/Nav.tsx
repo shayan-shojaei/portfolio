@@ -1,6 +1,8 @@
 import './Nav.scss';
 import cn from 'classnames';
 import { useLocation, Link } from 'react-router-dom';
+import { useState } from 'react';
+import Chevron from '../Icons/Chevron';
 
 interface NavProps {
 	items: NavRoute[];
@@ -10,21 +12,29 @@ interface NavProps {
 
 export default function Nav(props: NavProps) {
 	const location = useLocation();
+	const [navOpen, setNavOpen] = useState(false);
 	return (
 		<nav className={props.className}>
 			<header>
 				Shayan Shojaei
 				<span>Web & Mobile Developer</span>
+				<Chevron
+					className={cn({ 'nav-icon': true, 'nav-icon-open': navOpen })}
+					onClick={() => setNavOpen((p) => !p)}
+				/>
 			</header>
-			<ul>
+			<ul
+				className={cn({
+					'list-open': navOpen,
+				})}
+			>
 				{props.items.map((item) => (
 					<NavItem
 						key={item.route}
 						label={item.label}
 						route={item.route}
 						selected={location.pathname === item.route}
-						// onClick={() => !!props.onChange && props.onChange(item.route)}
-						onClick={() => console.log(location)}
+						onClick={() => setNavOpen(false)}
 					/>
 				))}
 			</ul>

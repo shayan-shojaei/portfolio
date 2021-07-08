@@ -16,6 +16,7 @@ p {
 }
 
 .socials {
+	margin-top: 1rem;
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	gap: 1rem;
@@ -38,7 +39,13 @@ p {
 		}
 
 		&:hover {
-			color: $dark-primary-color;
+			color: $light-primary-color;
 		}
+	}
+}
+
+@media (max-width: 900px) {
+	.socials {
+		grid-template-columns: 1fr;
 	}
 }

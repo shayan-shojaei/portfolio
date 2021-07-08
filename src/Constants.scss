@@ -22,3 +22,9 @@ $primary-text-color: #000000;
 		flex-flow: column nowrap;
 	}
 }
+
+@media (max-width: 780px) {
+	.page-content {
+		margin: 1rem;
+	}
+}

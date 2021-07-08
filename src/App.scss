@@ -14,6 +14,7 @@ body {
 }
 
 .wrapper-nav {
+	transition: width 100ms;
 	position: sticky;
 	position: -webkit-sticky;
 	top: 0;
@@ -36,4 +37,36 @@ footer {
 	text-align: center;
 	font-size: 0.75rem;
 	color: rgba($primary-text-color, 0.75);
+}
+
+@media (max-width: 1000px) {
+	.wrapper-nav {
+		width: 15rem;
+	}
+}
+
+@media (max-width: 780px) {
+	.wrapper {
+		width: 100%;
+		height: auto;
+		flex-flow: column nowrap;
+		justify-content: center;
+		align-items: center;
+	}
+	.wrapper-nav {
+		position: static;
+		top: auto;
+		bottom: auto;
+		left: auto;
+		width: 95%;
+	}
+	.wrapper-container {
+		flex: none;
+		height: auto;
+		position: static;
+	}
+
+	footer {
+		display: none;
+	}
 }
