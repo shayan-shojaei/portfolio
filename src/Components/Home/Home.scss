@@ -1,0 +1,44 @@
+@import '../../Constants.scss';
+
+h1 {
+	font-family: 'Roboto', Helvetica, sans-serif;
+	text-transform: capitalize;
+	font-weight: 800;
+	text-align: left;
+}
+
+p {
+	font-family: 'Roboto', Helvetica, sans-serif;
+	text-align: left;
+	font-weight: 500;
+	line-height: 1.75rem;
+	font-size: 1rem;
+}
+
+.socials {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 1rem;
+	a {
+		color: $primary-text-color;
+		font-family: 'Roboto Mono', monospace;
+		text-decoration: none;
+		display: flex;
+		flex-flow: row nowrap;
+		align-items: center;
+		gap: 0.5rem;
+		transition: color 200ms;
+		font-weight: 700;
+		span {
+			flex: 1;
+		}
+		svg {
+			height: 2rem;
+			width: 2rem;
+		}
+
+		&:hover {
+			color: $dark-primary-color;
+		}
+	}
+}

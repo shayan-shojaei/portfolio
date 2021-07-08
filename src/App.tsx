@@ -6,7 +6,7 @@ import Home from './Components/Home/Home';
 import Projects from './Components/Projects/Projects';
 
 function App() {
-	const [appState, setAppState] = useState({ route: '/' });
+	const [appState, setAppState] = useState({});
 	const NavItems = [
 		new NavRoute('Home', '/'),
 		new NavRoute('Skills', '/skills'),
@@ -17,13 +17,7 @@ function App() {
 	return (
 		<Router>
 			<div className="wrapper">
-				<Nav
-					className="wrapper-nav"
-					items={NavItems}
-					/* onChange={(route: string) =>
-					setAppState((p) => ({ ...p, route: route }))
-				} */
-				/>
+				<Nav className="wrapper-nav" items={NavItems} />
 				<div className="wrapper-container">
 					<Switch>
 						<Route path="/projects">
@@ -34,6 +28,7 @@ function App() {
 						</Route>
 					</Switch>
 				</div>
+				<footer>Copyright © 2021</footer>
 			</div>
 		</Router>
 	);

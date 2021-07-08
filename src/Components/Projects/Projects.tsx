@@ -1,5 +1,12 @@
 import React from 'react';
+import './Projects.scss';
 
 export default function Projects() {
-	return <div>PROJECTS</div>;
+	return (
+		<div className="page">
+			<div className="page-content">
+				<span className="page-route">projects/</span>
+			</div>
+		</div>
+	);
 }

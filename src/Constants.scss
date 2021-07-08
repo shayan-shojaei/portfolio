@@ -3,3 +3,22 @@ $light-primary-color: #beaee2;
 $dark-primary-color: #9b7be4;
 $accent-color: #f7dbf0;
 $primary-text-color: #000000;
+
+.page {
+	font-family: 'Roboto', 'Helvetica Neue', 'Helvetica', sans-serif;
+	&-route {
+		font-size: 0.75rem;
+		font-weight: 400;
+		font-family: 'Roboto Mono', monospace;
+		text-transform: uppercase;
+	}
+	&-content {
+		padding: 1rem;
+		margin: 2.75rem;
+		background-color: rgba($light-primary-color, 0.15);
+		border-radius: 0.5rem;
+		overflow: auto;
+		display: flex;
+		flex-flow: column nowrap;
+	}
+}
