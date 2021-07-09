@@ -21,14 +21,14 @@ p {
 	grid-template-columns: repeat(2, 1fr);
 	gap: 1rem;
 	a {
-		color: $primary-text-color;
+		color: $secondary-text-color;
 		font-family: 'Roboto Mono', monospace;
 		text-decoration: none;
 		display: flex;
 		flex-flow: row nowrap;
 		align-items: center;
 		gap: 0.5rem;
-		transition: color 200ms;
+		transition: transform 200ms;
 		font-weight: 700;
 		span {
 			flex: 1;
@@ -36,10 +36,11 @@ p {
 		svg {
 			height: 2rem;
 			width: 2rem;
+			fill: $secondary-text-color;
 		}
 
 		&:hover {
-			color: $light-primary-color;
+			transform: translateX(5px);
 		}
 	}
 }

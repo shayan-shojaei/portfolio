@@ -1,9 +1,13 @@
-$background-color: #cdf0ea;
+$background-color: #ffffff;
+$light-primary-color: #00a8e8;
+$dark-primary-color: #003459;
+$accent-color: #007ea7;
+$primary-text-color: #000000;
+$secondary-text-color: #ffffff;
+/* $background-color: #cdf0ea;
 $light-primary-color: #beaee2;
 $dark-primary-color: #9b7be4;
-$accent-color: #f7dbf0;
-$primary-text-color: #000000;
-
+$accent-color: #f7dbf0; */
 .page {
 	font-family: 'Roboto', 'Helvetica Neue', 'Helvetica', sans-serif;
 	&-route {
@@ -15,11 +19,12 @@ $primary-text-color: #000000;
 	&-content {
 		padding: 1rem;
 		margin: 2.75rem;
-		background-color: rgba($light-primary-color, 0.15);
+		background-color: rgba($light-primary-color, 1);
 		border-radius: 0.5rem;
 		overflow: auto;
 		display: flex;
 		flex-flow: column nowrap;
+		color: $secondary-text-color;
 	}
 }
 

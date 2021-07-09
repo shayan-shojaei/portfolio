@@ -50,7 +50,7 @@ li {
 		text-decoration: none;
 		color: rgba($primary-text-color, 0.6);
 		&:hover {
-			color: rgba($dark-primary-color, 0.6);
+			color: $dark-primary-color;
 			cursor: pointer;
 		}
 	}
