@@ -4,10 +4,7 @@ $dark-primary-color: #003459;
 $accent-color: #007ea7;
 $primary-text-color: #000000;
 $secondary-text-color: #ffffff;
-/* $background-color: #cdf0ea;
-$light-primary-color: #beaee2;
-$dark-primary-color: #9b7be4;
-$accent-color: #f7dbf0; */
+
 .page {
 	font-family: 'Roboto', 'Helvetica Neue', 'Helvetica', sans-serif;
 	&-route {
@@ -20,11 +17,12 @@ $accent-color: #f7dbf0; */
 		padding: 1rem;
 		margin: 2.75rem;
 		background-color: rgba($light-primary-color, 1);
-		border-radius: 0.5rem;
+		border-radius: 1rem;
 		overflow: auto;
 		display: flex;
 		flex-flow: column nowrap;
 		color: $secondary-text-color;
+		box-shadow: 0 5px 4px rgba(0, 0, 0, 0.1);
 	}
 }
 

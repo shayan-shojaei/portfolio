@@ -1,0 +1,28 @@
+@import '../../Constants.scss';
+
+.chip-container {
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	gap: 0.5rem;
+	margin: 1rem 0;
+}
+.chip-title {
+	font-family: 'Roboto Mono', monospace;
+	width: 100%;
+	font-weight: 900;
+}
+.chip {
+	border-radius: 1rem;
+	padding: 0.5rem 1rem;
+	text-align: center;
+	color: $dark-primary-color;
+	font-size: 1rem;
+	font-family: 'Roboto', Helvetica, sans-serif;
+	background-color: white;
+	transition: background-color 200ms;
+
+	&:hover {
+		background-color: rgba($secondary-text-color, 0.8);
+	}
+}

@@ -4,6 +4,7 @@ import Nav, { NavRoute } from './Components/Nav/Nav';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from './Components/Home/Home';
 import Projects from './Components/Projects/Projects';
+import Skills from './Components/Skills/Skills';
 
 function App() {
 	const [appState, setAppState] = useState({});
@@ -20,7 +21,10 @@ function App() {
 				<Nav className="wrapper-nav" items={NavItems} />
 				<div className="wrapper-container">
 					<Switch>
-						<Route path="/projects">
+						<Route path="/skills" exact>
+							<Skills />
+						</Route>
+						<Route path="/projects" exact>
 							<Projects />
 						</Route>
 						<Route path="/">

@@ -33,7 +33,11 @@ export default function Nav(props: NavProps) {
 						key={item.route}
 						label={item.label}
 						route={item.route}
-						selected={location.pathname === item.route}
+						selected={
+							location.pathname === item.route ||
+							(!props.items.map((n) => n.route).includes(location.pathname) &&
+								item.route === '/')
+						}
 						onClick={() => setNavOpen(false)}
 					/>
 				))}

@@ -29,7 +29,7 @@ export default function Home() {
 						icon={<LinkedIn />}
 					/>
 					<SocialItem
-						label="My Email"
+						label="shayanshojaei.2002@gmail.com"
 						url="mailto:shayanshojaei.2002@gmail.com"
 						icon={<Email />}
 					/>
