@@ -6,7 +6,9 @@ export default function Home() {
 		<div className="page">
 			<div className="page-content">
 				<span className="page-route">home/</span>
-				<h1>hey, i'm shayan!</h1>
+				<h1>
+					hey, i'm <strong>shayan</strong>!
+				</h1>
 				<p>
 					I'm a software developer and have worked in multiple fields such as
 					Web and Mobile software development.

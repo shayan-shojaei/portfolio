@@ -1,7 +1,7 @@
 $background-color: #ffffff;
-$light-primary-color: #00a8e8;
-$dark-primary-color: #003459;
-$accent-color: #007ea7;
+$light-primary-color: #491650;
+$dark-primary-color: #2a0f2e;
+$accent-color: #00a8e8;
 $primary-text-color: #000000;
 $secondary-text-color: #ffffff;
 
@@ -12,11 +12,12 @@ $secondary-text-color: #ffffff;
 		font-weight: 400;
 		font-family: 'Roboto Mono', monospace;
 		text-transform: uppercase;
+		color: $accent-color;
 	}
 	&-content {
 		padding: 1rem;
 		margin: 2.75rem;
-		background-color: rgba($light-primary-color, 1);
+		background-color: rgba($dark-primary-color, 1);
 		border-radius: 1rem;
 		overflow: auto;
 		display: flex;

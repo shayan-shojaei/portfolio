@@ -3,7 +3,7 @@
 h1 {
 	font-family: 'Roboto', Helvetica, sans-serif;
 	text-transform: capitalize;
-	font-weight: 800;
+	font-weight: 500;
 	text-align: left;
 }
 
@@ -29,7 +29,7 @@ p {
 		flex-flow: row nowrap;
 		align-items: center;
 		gap: 0.5rem;
-		transition: transform 200ms;
+		transition: transform 200ms, color 200ms;
 		font-weight: 700;
 		span {
 			flex: 1;
@@ -41,6 +41,10 @@ p {
 		}
 
 		&:hover {
+			color: $accent-color;
+			svg {
+				fill: $accent-color;
+			}
 			transform: translateX(5px);
 		}
 	}
