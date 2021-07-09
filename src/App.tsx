@@ -1,13 +1,12 @@
 import './App.scss';
-import { useState } from 'react';
 import Nav, { NavRoute } from './Components/Nav/Nav';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from './Components/Home/Home';
 import Projects from './Components/Projects/Projects';
 import Skills from './Components/Skills/Skills';
+import Education from './Education/Education';
 
 function App() {
-	const [appState, setAppState] = useState({});
 	const NavItems = [
 		new NavRoute('Home', '/'),
 		new NavRoute('Skills', '/skills'),
@@ -26,6 +25,9 @@ function App() {
 						</Route>
 						<Route path="/projects" exact>
 							<Projects />
+						</Route>
+						<Route path="/education" exact>
+							<Education />
 						</Route>
 						<Route path="/">
 							<Home />
