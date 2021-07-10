@@ -16,7 +16,7 @@ function App() {
 		new NavRoute('Projects', '/projects'),
 	];
 	return (
-		<Router>
+		<Router basename={process.env.PUBLIC_URL}>
 			<div className="wrapper">
 				<Nav className="wrapper-nav" items={NavItems} />
 				<div className="wrapper-container">
