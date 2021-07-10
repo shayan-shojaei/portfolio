@@ -4,8 +4,8 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from './Components/Home/Home';
 import Projects from './Components/Projects/Projects';
 import Skills from './Components/Skills/Skills';
-import Education from './Education/Education';
-import Work from './Work/Work';
+import Education from './Components/Education/Education';
+import Work from './Components/Work/Work';
 
 function App() {
 	const NavItems = [
