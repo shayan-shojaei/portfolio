@@ -28,32 +28,32 @@ header {
 		display: none;
 	}
 }
-ul {
+nav ul {
 	display: flex;
 	flex-flow: column nowrap;
 	margin: auto 0;
 	width: 100%;
 	gap: 1rem;
 	overflow: hidden;
+
+	li {
+		list-style: none;
+		a {
+			font-size: 1rem;
+			transition: color 200ms, font-size 200ms;
+			text-decoration: none;
+			color: rgba($primary-text-color, 0.6);
+			&:hover {
+				color: $dark-primary-color;
+				cursor: pointer;
+			}
+		}
+	}
 }
 
 .list-open {
 	max-height: 350px;
 	margin: auto 1rem;
-}
-
-li {
-	list-style: none;
-	a {
-		font-size: 1rem;
-		transition: color 200ms, font-size 200ms;
-		text-decoration: none;
-		color: rgba($primary-text-color, 0.6);
-		&:hover {
-			color: $dark-primary-color;
-			cursor: pointer;
-		}
-	}
 }
 
 .selected {
@@ -98,7 +98,7 @@ li {
 			justify-self: flex-end;
 		}
 	}
-	ul {
+	nav ul {
 		transition: max-height 200ms;
 		max-height: 0;
 		overflow: hidden;

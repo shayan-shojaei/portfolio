@@ -5,6 +5,7 @@ import Home from './Components/Home/Home';
 import Projects from './Components/Projects/Projects';
 import Skills from './Components/Skills/Skills';
 import Education from './Education/Education';
+import Work from './Work/Work';
 
 function App() {
 	const NavItems = [
@@ -23,11 +24,14 @@ function App() {
 						<Route path="/skills" exact>
 							<Skills />
 						</Route>
-						<Route path="/projects" exact>
-							<Projects />
+						<Route path="/work" exact>
+							<Work />
 						</Route>
 						<Route path="/education" exact>
 							<Education />
+						</Route>
+						<Route path="/projects" exact>
+							<Projects />
 						</Route>
 						<Route path="/">
 							<Home />

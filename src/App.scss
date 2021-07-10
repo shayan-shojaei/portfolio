@@ -11,6 +11,7 @@ body {
 	flex-flow: row nowrap;
 	height: 100vh;
 	width: 100%;
+	overflow: hidden;
 }
 
 .wrapper-nav {
@@ -18,26 +19,24 @@ body {
 	position: sticky;
 	position: -webkit-sticky;
 	top: 0;
-	bottom: 0;
 	left: 0;
 	width: 18rem;
 }
 .wrapper-container {
 	width: 100%;
 	flex: 1;
-	height: 100vh;
-	position: sticky;
-	position: -webkit-sticky;
+	overflow: auto;
 }
 
 footer {
-	position: absolute;
+	position: fixed;
 	bottom: 0.75rem;
 	right: 0;
 	left: 0;
 	text-align: center;
 	font-size: 0.75rem;
 	color: rgba($primary-text-color, 0.75);
+	z-index: -1;
 }
 
 @media (max-width: 1000px) {
@@ -65,9 +64,5 @@ footer {
 		flex: none;
 		height: auto;
 		position: static;
-	}
-
-	footer {
-		display: none;
 	}
 }

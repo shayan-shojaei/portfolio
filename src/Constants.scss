@@ -28,6 +28,9 @@ $secondary-text-color: #ffffff;
 }
 
 @media (max-width: 780px) {
+	.page {
+		padding-bottom: 2rem;
+	}
 	.page-content {
 		margin: 1rem;
 	}
