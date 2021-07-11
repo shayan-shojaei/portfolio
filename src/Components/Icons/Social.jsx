@@ -20,7 +20,7 @@ export function LinkedIn() {
 			viewBox="0 0 512 512"
 			width="100%"
 			fillRule="evenodd"
-			lipRule="evenodd"
+			liprule="evenodd"
 			strokeLinejoin="round"
 			strokeMiterlimit="2"
 		>
@@ -38,7 +38,7 @@ export function Twitter() {
 			viewBox="0 0 512 512"
 			width="100%"
 			fillRule="evenodd"
-			lipRule="evenodd"
+			liprule="evenodd"
 			strokeLinejoin="round"
 			strokeMiterlimit="2"
 		>

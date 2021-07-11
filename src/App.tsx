@@ -1,6 +1,6 @@
 import './App.scss';
 import Nav, { NavRoute } from './Components/Nav/Nav';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { HashRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from './Components/Home/Home';
 import Projects from './Components/Projects/Projects';
 import Skills from './Components/Skills/Skills';
@@ -16,7 +16,7 @@ function App() {
 		new NavRoute('Projects', '/projects'),
 	];
 	return (
-		<Router basename={process.env.PUBLIC_URL}>
+		<Router>
 			<div className="wrapper">
 				<Nav className="wrapper-nav" items={NavItems} />
 				<div className="wrapper-container">
