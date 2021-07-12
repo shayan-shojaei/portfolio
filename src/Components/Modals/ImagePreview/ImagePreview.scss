@@ -1,0 +1,22 @@
+@import '../../../Constants.scss';
+
+.preview-wrapper {
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	background-color: rgba(black, 0.5);
+	z-index: 2;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.preview-wrapper img {
+	max-height: 95%;
+	max-width: 95%;
+	object-fit: cover;
+	margin: 1rem;
+	border-radius: 1rem;
+}

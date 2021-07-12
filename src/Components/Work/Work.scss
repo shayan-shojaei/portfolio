@@ -19,12 +19,14 @@
 	justify-content: flex-start;
 	gap: 0.5rem;
 	&-description {
+		text-align: justify;
 		color: rgba($primary-text-color, 0.7);
 	}
 	p {
 		font-size: 1rem;
 		margin: 0;
 		display: flex;
+		text-align: justify;
 		flex-flow: row wrap;
 		justify-content: space-between;
 		h3 {
@@ -39,6 +41,7 @@
 		margin: 0;
 		line-height: 1.5rem;
 		padding: 0.5rem 1.5rem;
+		text-align: justify;
 	}
 }
 
