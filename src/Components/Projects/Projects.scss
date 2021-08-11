@@ -107,3 +107,9 @@
 		max-height: 1200px;
 	}
 }
+
+@media print {
+	.project-item-images-container {
+		grid-template-columns: repeat(3, 1fr);
+	}
+}

@@ -35,3 +35,21 @@ $secondary-text-color: #ffffff;
 		margin: 1rem;
 	}
 }
+
+@media print {
+	.page {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		padding-top: 2.5rem;
+		background-color: white;
+	}
+	.page-route {
+		font-size: 1.5rem;
+		position: absolute;
+		top: 1rem;
+		color: $light-primary-color;
+	}
+}
