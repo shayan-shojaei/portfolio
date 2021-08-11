@@ -1,0 +1,42 @@
+[
+	{
+		"title": "Skills",
+		"items": [
+			"JavaScript",
+			"Java",
+			"Kotlin",
+			"TypeScript",
+			"Python",
+			"Dart",
+			"Rust"
+		]
+	},
+	{
+		"title": "Front End",
+		"items": ["ReactJS", "NextJS", "Sass", "HTML", "CSS"]
+	},
+	{
+		"title": "Back End",
+		"items": [
+			"Node",
+			"ExpressJS",
+			"GraphQL",
+			"Apollo Server",
+			"Prisma",
+			"Mongo DB",
+			"Postgres DB"
+		]
+	},
+	{
+		"title": "Mobile",
+		"items": ["Native Android", "React Native", "Flutter"]
+	},
+	{
+		"title": "Tools",
+		"items": ["Git/Github", "NPM", "ScikitLearn", "Keras"]
+	},
+	{
+		"title": "Languages",
+		"items": ["Persian", "English"]
+	}
+]

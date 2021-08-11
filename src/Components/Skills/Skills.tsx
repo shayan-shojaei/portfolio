@@ -1,39 +1,19 @@
 import './Skills.scss';
+import skillsList from '../../resources/skills.json';
+
+interface Skill {
+	title: string;
+	items: string[];
+}
 
 export default function Skills() {
 	return (
 		<div className="page">
 			<div className="page-content">
 				<span className="page-route">skills/</span>
-				<SkillGroup
-					title="Programming Languages"
-					chips={[
-						'JavaScript',
-						'Java',
-						'Kotlin',
-						'TypeScript',
-						'Python',
-						'Dart',
-						'Rust',
-					]}
-				/>
-				<SkillGroup
-					title="Front End"
-					chips={['ReactJS', 'SASS', 'HTML', 'CSS', 'NextJS']}
-				/>
-				<SkillGroup
-					title="Mobile"
-					chips={['Native Android', 'React Native', 'Flutter']}
-				/>
-				<SkillGroup
-					title="Back End"
-					chips={['Node', 'ExpressJS', 'GraphQL', 'Mongo DB', 'Postgres DB']}
-				/>
-				<SkillGroup
-					title="Tools"
-					chips={['Git/Github', 'NPM', 'ScikitLearn']}
-				/>
-				<SkillGroup title="Languages" chips={['Persian', 'English']} />
+				{skillsList.map((skill: Skill) => (
+					<SkillGroup title={skill.title} chips={skill.items} />
+				))}
 			</div>
 		</div>
 	);

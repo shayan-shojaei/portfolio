@@ -102,8 +102,15 @@ nav ul {
 		transition: max-height 200ms;
 		max-height: 0;
 		overflow: hidden;
-		margin: auto 1rem;
+		margin: auto 0;
 		width: auto;
-		align-self: flex-end;
+		align-self: flex-start;
+		text-align: left;
+	}
+
+	.list-open {
+		padding: 0 1rem;
+		max-height: 350px;
+		margin: auto 0;
 	}
 }

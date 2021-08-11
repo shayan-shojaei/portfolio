@@ -1,12 +1,21 @@
 import './Projects.scss';
-import { ProjectProperties, Project, getProjects } from './ProjectsResources';
+import projects from '../../resources/projects.json';
 import Chevron from '../Icons/Chevron';
 import { useState } from 'react';
 import cn from 'classnames';
 import Link from '../Icons/Link';
 import ImagePreview from '../Modals/ImagePreview/ImagePreview';
 
+export interface ProjectProperties {
+	title: string;
+	description: string;
+	type?: string;
+	url?: string;
+	images?: string[];
+}
+
 const initialPreviewImage = { src: '', alt: '' };
+
 export default function Projects() {
 	const [previewImage, setPreviewImage] = useState(initialPreviewImage);
 	return (
@@ -21,11 +30,11 @@ export default function Projects() {
 			<div className="page-content">
 				<span className="page-route">projects/</span>
 				<div className="projects">
-					{getProjects().map((project: Project) => (
+					{projects.map((project: ProjectProperties) => (
 						<ProjectItem
-							project={project.project}
+							project={project}
 							onImageClick={(image) =>
-								setPreviewImage({ src: image, alt: project.project.title })
+								setPreviewImage({ src: image, alt: project.title })
 							}
 						/>
 					))}

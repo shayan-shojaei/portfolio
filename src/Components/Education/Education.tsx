@@ -1,5 +1,14 @@
 import './Education.scss';
 
+import education from '../../resources/education.json';
+
+type EducationType = {
+	title: string;
+	organization: string;
+	startYear: string;
+	endYear: string;
+};
+
 export default function Education() {
 	return (
 		<div className="page">
@@ -7,31 +16,23 @@ export default function Education() {
 				<span className="page-route">education/</span>
 
 				<section className="education">
-					<EducationItem
-						title="BSc. Computer Science"
-						organization="Kharazmi University"
-						startYear="2020"
-						endYear="Present"
-					/>
+					{education.map((item: EducationType) => (
+						<EducationItem item={item} />
+					))}
 				</section>
 			</div>
 		</div>
 	);
 }
 
-const EducationItem = (props: {
-	title: string;
-	organization: string;
-	startYear: string;
-	endYear: string;
-}) => (
+const EducationItem = ({ item }: { item: EducationType }) => (
 	<article className="education-item">
 		<p>
-			{props.organization}
+			{item.organization}
 			<span>
-				{props.startYear} - {props.endYear}
+				{item.startYear} - {item.endYear}
 			</span>
 		</p>
-		<h3>{props.title}</h3>
+		<h3>{item.title}</h3>
 	</article>
 );
