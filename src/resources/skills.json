@@ -1,6 +1,6 @@
 [
 	{
-		"title": "Skills",
+		"title": "Programming Languages",
 		"items": [
 			"JavaScript",
 			"Java",
@@ -13,13 +13,13 @@
 	},
 	{
 		"title": "Front End",
-		"items": ["ReactJS", "NextJS", "Sass", "HTML", "CSS"]
+		"items": ["React.js", "Next.js", "Redux", "Sass", "HTML", "CSS"]
 	},
 	{
 		"title": "Back End",
 		"items": [
 			"Node",
-			"ExpressJS",
+			"Express.js",
 			"GraphQL",
 			"Apollo Server",
 			"Prisma",
