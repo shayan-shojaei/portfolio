@@ -1,5 +1,15 @@
 [
 	{
+		"title": "IntelliSearch",
+		"images": [
+			"/images/intellisearch-0.png",
+			"/images/intellisearch-1.png",
+			"/images/intellisearch-2.png"
+		],
+		"description": "IntelliSearch is a Semantic Search Engine as a Service.",
+		"url": "https://intellisearch.ir/"
+	},
+	{
 		"title": "Trayl Website",
 		"description": "Trayl is an online intercity transportation solution. My task was to create and maintain the front-end side of the website, taking advantage of a GraphQL back-end; The website is also implemented as a PWA for better mobile usage.",
 		"url": "https://trayl.ir",

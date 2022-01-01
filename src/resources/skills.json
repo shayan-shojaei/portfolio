@@ -3,28 +3,32 @@
 		"title": "Programming Languages",
 		"items": [
 			"JavaScript",
-			"Java",
-			"Kotlin",
-			"TypeScript",
 			"Python",
-			"Dart",
-			"Rust"
+			"Java",
+			"TypeScript",
+			"Kotlin",
+			"Rust",
+			"Dart"
 		]
 	},
 	{
+		"title": "Data Science/Machine Learning",
+		"items": ["Pytorch", "Pandas", "Numpy", "Scikit Learn", "Keras"]
+	},
+	{
 		"title": "Front End",
-		"items": ["React.js", "Next.js", "Redux", "Sass", "HTML", "CSS"]
+		"items": ["ReactJS", "NextJS", "Sass", "Webpack", "HTML/CSS"]
 	},
 	{
 		"title": "Back End",
 		"items": [
 			"Node",
-			"Express.js",
+			"ExpressJS",
 			"GraphQL",
 			"Apollo Server",
 			"Prisma",
-			"Mongo DB",
-			"Postgres DB"
+			"Postgres DB",
+			"Mongo DB"
 		]
 	},
 	{
@@ -33,7 +37,7 @@
 	},
 	{
 		"title": "Tools",
-		"items": ["Git/Github", "NPM", "ScikitLearn", "Keras"]
+		"items": ["Git/Github", "NPM", "Yarn"]
 	},
 	{
 		"title": "Languages",
