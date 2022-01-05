@@ -33,7 +33,7 @@ export default function Work() {
 
 					<WorkItem
 						title="Freelance Android App Developer"
-						organization="Self-Emplyed"
+						organization="Self-Employed"
 						startYear="2016"
 						endYear="2019"
 						points={[
