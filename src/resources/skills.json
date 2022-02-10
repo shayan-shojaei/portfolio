@@ -12,12 +12,26 @@
 		]
 	},
 	{
-		"title": "Data Science/Machine Learning",
-		"items": ["Pytorch", "Pandas", "Numpy", "Scikit Learn", "Keras"]
+		"title": "Front End",
+		"items": [
+			"ReactJS",
+			"NextJS",
+			"Sass",
+			"Webpack",
+			"HTML/CSS",
+			"ESLint",
+			"Storybook"
+		]
 	},
 	{
-		"title": "Front End",
-		"items": ["ReactJS", "NextJS", "Sass", "Webpack", "HTML/CSS"]
+		"title": "Data Science/Machine Learning",
+		"items": [
+			"Pytorch",
+			"Pandas",
+			"Numpy",
+			"Scikit Learn",
+			"Keras"
+		]
 	},
 	{
 		"title": "Back End",
@@ -33,14 +47,25 @@
 	},
 	{
 		"title": "Mobile",
-		"items": ["Native Android", "React Native", "Flutter"]
+		"items": [
+			"Native Android",
+			"React Native",
+			"Flutter"
+		]
 	},
 	{
 		"title": "Tools",
-		"items": ["Git/Github", "NPM", "Yarn"]
+		"items": [
+			"Git/Github",
+			"NPM",
+			"Yarn"
+		]
 	},
 	{
 		"title": "Languages",
-		"items": ["Persian", "English"]
+		"items": [
+			"Persian",
+			"English"
+		]
 	}
 ]

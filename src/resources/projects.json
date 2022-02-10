@@ -1,5 +1,15 @@
 [
 	{
+		"title": "TON DEX Swap Contest",
+		"images": [
+			"/images/ton-dex-0.png",
+			"/images/ton-dex-1.png",
+			"/images/ton-dex-2.png"
+		],
+		"description": "TON DEX Swap website entry in the ton dex front-end contest.",
+		"url": "https://ton-dex-three.vercel.app/"
+	},
+	{
 		"title": "IntelliSearch",
 		"images": [
 			"/images/intellisearch-0.png",
