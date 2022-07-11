@@ -11,13 +11,11 @@ export default function Home() {
 				</h1>
 				<p>
 					I'm a software developer and have worked in multiple fields such as
-					Web and Mobile software development.
-					<br />
-					I've worked with several languages and consider myself proficient in
-					<strong> JavaScript, Java, Kotlin</strong>, etc.
-					<br />
-					I'm currently studying Computer Science and am highly interested in AI
-					research and Machine Learning techniques.
+					Web and Mobile software development. I've worked with several
+					languages and consider myself proficient in
+					<strong> JavaScript, Python and Java</strong>, etc. I'm currently
+					studying Computer Science and am highly interested in Deep Learning
+					research, concepts and techniques.
 				</p>
 				<section className="socials">
 					<SocialItem

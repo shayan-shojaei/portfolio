@@ -1,14 +1,22 @@
 [
 	{
 		"title": "Programming Languages",
+		"items": ["JavaScript", "Python", "Java", "TypeScript", "Kotlin", "Rust"]
+	},
+	{
+		"title": "Data Science/Machine Learning",
+		"items": ["Pytorch", "Pandas", "Numpy", "PySpark", "Scikit Learn", "Keras"]
+	},
+	{
+		"title": "Back End",
 		"items": [
-			"JavaScript",
-			"Python",
-			"Java",
-			"TypeScript",
-			"Kotlin",
-			"Rust",
-			"Dart"
+			"Node",
+			"ExpressJS",
+			"GraphQL",
+			"Apollo Server",
+			"Prisma",
+			"Postgres DB",
+			"Mongo DB"
 		]
 	},
 	{
@@ -26,48 +34,23 @@
 		]
 	},
 	{
-		"title": "Data Science/Machine Learning",
-		"items": [
-			"Pytorch",
-			"Pandas",
-			"Numpy",
-			"Scikit Learn",
-			"Keras"
-		]
-	},
-	{
-		"title": "Back End",
-		"items": [
-			"Node",
-			"ExpressJS",
-			"GraphQL",
-			"Apollo Server",
-			"Prisma",
-			"Postgres DB",
-			"Mongo DB"
-		]
-	},
-	{
 		"title": "Mobile",
-		"items": [
-			"Native Android",
-			"React Native",
-			"Flutter"
-		]
+		"items": ["Native Android", "React Native"]
 	},
 	{
 		"title": "Tools",
 		"items": [
 			"Git/Github",
 			"NPM",
-			"Yarn"
+			"Yarn",
+			"Jenkins",
+			"Cargo",
+			"Linux",
+			"Docker"
 		]
 	},
 	{
 		"title": "Languages",
-		"items": [
-			"Persian",
-			"English"
-		]
+		"items": ["Persian", "English"]
 	}
 ]

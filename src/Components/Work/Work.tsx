@@ -10,7 +10,7 @@ export default function Work() {
 						title="Front End Developer"
 						organization="Trayl"
 						startYear="2020"
-						endYear="Present"
+						endYear="2022"
 						description="Trayl is an online intercity transportation solution."
 						points={[
 							'Used modern industry-standard technologies such as NextJS, React, GraphQL, Sass, etc.',
@@ -24,6 +24,7 @@ export default function Work() {
 							'NextJS',
 							'Node',
 							'GraphQL',
+							'Webpack',
 							'Sass',
 							'JavaScript',
 							'TypeScript',
