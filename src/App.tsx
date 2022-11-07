@@ -1,6 +1,6 @@
 import './App.scss';
 import Nav, { NavRoute } from './Components/Nav/Nav';
-import { HashRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from './Components/Home/Home';
 import Projects from './Components/Projects/Projects';
 import Skills from './Components/Skills/Skills';
@@ -38,7 +38,7 @@ function App() {
 						</Route>
 					</Switch>
 				</div>
-				<footer>Copyright © 2021</footer>
+				<footer>Copyright © 2022</footer>
 			</div>
 		</Router>
 	);
