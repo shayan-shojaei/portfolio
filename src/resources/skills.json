@@ -1,56 +1,58 @@
 [
-	{
-		"title": "Programming Languages",
-		"items": ["JavaScript", "Python", "Java", "TypeScript", "Kotlin", "Rust"]
-	},
-	{
-		"title": "Data Science/Machine Learning",
-		"items": ["Pytorch", "Pandas", "Numpy", "PySpark", "Scikit Learn", "Keras"]
-	},
-	{
-		"title": "Back End",
-		"items": [
-			"Node",
-			"ExpressJS",
-			"GraphQL",
-			"Apollo Server",
-			"Prisma",
-			"Postgres DB",
-			"Mongo DB"
-		]
-	},
-	{
-		"title": "Front End",
-		"items": [
-			"ReactJS",
-			"Redux",
-			"Redux-Toolkit",
-			"NextJS",
-			"Sass",
-			"Webpack",
-			"HTML/CSS",
-			"ESLint",
-			"Storybook"
-		]
-	},
-	{
-		"title": "Mobile",
-		"items": ["Native Android", "React Native"]
-	},
-	{
-		"title": "Tools",
-		"items": [
-			"Git/Github",
-			"NPM",
-			"Yarn",
-			"Jenkins",
-			"Cargo",
-			"Linux",
-			"Docker"
-		]
-	},
-	{
-		"title": "Languages",
-		"items": ["Persian", "English"]
-	}
+  {
+    "title": "Programming Languages",
+    "items": ["JavaScript", "Python", "Java", "TypeScript", "Kotlin", "Rust"]
+  },
+  {
+    "title": "Data Science/Machine Learning",
+    "items": ["Pytorch", "Pandas", "Numpy", "PySpark", "Scikit Learn", "Keras"]
+  },
+  {
+    "title": "Back End",
+    "items": [
+      "Node",
+      "NestJS",
+      "MongoDB",
+      "ExpressJS",
+      "GraphQL",
+      "Apollo Server",
+      "Prisma",
+      "PostgresQL"
+    ]
+  },
+  {
+    "title": "Front End",
+    "items": [
+      "ReactJS",
+      "NextJS",
+      "Redux",
+      "Redux-Toolkit",
+      "Sass",
+      "Webpack",
+      "RollUp",
+      "ESLint",
+      "Storybook",
+      "HTML/CSS"
+    ]
+  },
+  {
+    "title": "Mobile",
+    "items": ["Native Android"]
+  },
+  {
+    "title": "Tools",
+    "items": [
+      "Git/Github",
+      "NPM",
+      "Docker",
+      "Yarn",
+      "Jenkins",
+      "Cargo",
+      "Linux"
+    ]
+  },
+  {
+    "title": "Languages",
+    "items": ["Persian", "English"]
+  }
 ]
